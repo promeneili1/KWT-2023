@@ -19,9 +19,9 @@ a {
 .userdetails {
   float: right;
   background-color: transparent;
-  border-color: #ff7f00;
-  color: #ff7f00;
-  fill: #ff7f00;
+  border-color: #007bff;
+  color: #007bff;
+  fill: #007bff;
   border: 1px solid;
   border-radius: 4px;
   box-sizing: border-box;
@@ -39,8 +39,8 @@ a {
 }
 
 .sign-up {
-  background-color: #ff7f00;
-  border-color: #ff7f00;
+  background-color: #007bff;
+  border-color: #007bff;
   color: #fff;
 }
 
@@ -59,7 +59,7 @@ a {
 }
 
 .dropdown-item:hover {
-  background-color: #ff7f00;
+  background-color: #007bff;
 }
 
 .dropdown-menu {
