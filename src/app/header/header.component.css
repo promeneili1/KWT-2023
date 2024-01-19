@@ -1,0 +1,75 @@
+header {
+  margin-bottom: 50px;
+  border-radius: 1px solid;
+}
+
+.sn-text {
+  font-weight: 700;
+  height: 40px;
+  width: 40px;
+  margin: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login,
+.sign-up,
+.userdetails {
+  float: right;
+  background-color: transparent;
+  border-color: #ff7f00;
+  color: #ff7f00;
+  fill: #ff7f00;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 2px 12px;
+  opacity: 1;
+  margin: 8px;
+}
+
+.sign-up {
+  background-color: #ff7f00;
+  border-color: #ff7f00;
+  color: #fff;
+}
+
+.sign-up:hover,
+.userdetails:hover {
+  opacity: 0.8;
+}
+
+.dropdown-item {
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dropdown-item:hover {
+  background-color: #ff7f00;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+}
+
+.account-icon {
+  border-radius: 3px;
+  float: left;
+  margin-right: 3px;
+  max-height: 20px;
+  max-width: 20px;
+}

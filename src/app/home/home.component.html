@@ -1,0 +1,12 @@
+<section class="content-item" id="posts">
+    <h3>New post:</h3>
+    <form #addForm="ngForm" class="form" (ngSubmit)="save()">
+      <div class="form-group">
+        <label for="content">What's on your mind:</label>
+        <input class="form-control" id="content" name="content" [(ngModel)]="newPost.content"/>
+      </div>
+      <input class="btn btn-primary pull-right" type="submit" value="Add"/>
+    </form>
+    <app-post-list [posts]="posts" [commentText]="commentText" (postAdded)="onPostAdded()"></app-post-list>
+</section>
+

@@ -1,0 +1,112 @@
+.row {
+  margin-top: 20px;
+}
+
+.media-heading {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.media-detail {
+  font-size: 0.8rem;
+  color: #ff7f00;
+  margin-bottom: 0;
+}
+
+.post-reactions {
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.reaction-button {
+  margin-right: 0.3rem;
+}
+
+.comment-input {
+  margin-top: 0.8rem;
+}
+
+.comment-input .input-group {
+  width: 100%;
+}
+
+.comment-input .input-group input {
+  margin-right: 2rem;
+}
+
+.comment-input .input-group-append {
+  position: relative;
+}
+
+.comment-input .input-group-append button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.comment-input .input-group-append button i {
+  margin-right: 0.3rem; /* Reduced margin-right */
+}
+
+.comments-section {
+  margin-top: 0.8rem;
+  padding-left: 1rem;
+}
+
+.comment {
+  border-left: 3px solid #ff7f00;
+  padding-left: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.comment-body {
+  margin-bottom: 0.4rem;
+}
+
+.list-inline {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.list-inline li:not(:last-child) {
+  margin-right: 0.3rem;
+}
+
+.comments-section .comment:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.dropdown.button-like {
+  margin-left: 30px;
+  appearance: none;
+  padding: 6px 12px;
+  border: none;
+  background-color: #ff7f00;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 40px;
+}
+
+.dropdown.button-like option {
+  padding: 6px 12px;
+}
+
+.dropdown.button-like:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 127, 0, 0.5);
+}
+
+@media (max-width: 576px) {
+  .media-detail {
+    font-size: 0.7rem;
+  }
+
+  .comment-input {
+    margin-top: 0.4rem;
+  }
+}
